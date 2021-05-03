@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+}
+
+h1{
+    font-size: 3rem
+}
+
+section{
+    margin: 2rem auto;
+    text-align: center;
+}
+
+div{
+    margin: 1rem;
+    padding: 1rem;
+    background-color: darkgreen;
+    color: orange;
+}
