@@ -6,44 +6,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>John Meyer IT121 HW8 Jquery</title>
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/humanity/jquery-ui.css">
-    <link rel="stylesheet" href="/resources/demos/style.css">
+    <link rel="stylesheet" href="css/styles.css">
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/hw7.js"></script>
 </head>
 <body>
     <div>
         <h1>Jquery tricks</h1>
-        <div>
-            <h2>Sort the food</h2>
-            <div id="Monkey" class="ui-widget-header">
-                <h4>Monkey</h4>
+        <h2>Feed the Animals!</h2>
+        <div class="showcase">
+            <div id="Monkey" class="animal">
+                <h4>🐵 Monkey</h4>
+                <p></p>
             </div>
-            <div id="Lion" class="ui-widget-header">
-                <h4>Lion</h4>
+            <div id="Lion" class="animal">
+                <h4>🦁 Lion</h4>
+                <p></p>
             </div>
-            <div id="Elephant" class="ui-widget-header">
-                <h4>Elephant</h4>
+            <div id="Elephant" class="animal">
+                <h4>🐘 Elephant</h4>
+                <p></p>
             </div>
-            <div id="Rabbit" class="ui-widget-header">
-                <h4>Rabbit</h4>
+            <div id="Rabbit" class="animal">
+                <h4>🐰 Rabbit</h4>
                 <p></p>
             </div>
 
-            <div id="Carrot" class="ui-widget-content">
-                <h4>Carrot</h4>
+            <div id="Carrot" class="food">
+                <h4>🥕 Carrot</h4>
+                <p></p>
             </div>
-            <div id="Banana" class="ui-widget-content">
-                <h4>Banana</h4>
+            <div id="Banana" class="food">
+                <h4>🍌 Banana</h4>
+                <p></p>
             </div>
-            <div id="Meat" class="ui-widget-content">
-                <h4>Meat</h4>
+            <div id="Meat" class="food">
+                <h4>🍖 Meat</h4>
+                <p></p>
             </div>
-            <div id="Peanut" class="ui-widget-content">
-                <h4>Peanut</h4>
+            <div id="Peanut" class="food">
+                <h4>🥜 Peanut</h4>
+                <p></p>
             </div>
         </div>
-        <p>Date: <input type="text" id="datepicker"></p>
+        <h2>Sort the Taxonomic Hierarchy</h2>
+        <ul id="THSorter">
+            <li class="THLevel">Order</li>
+            <li class="THLevel">Species</li>
+            <li class="THLevel">Kingdom</li>
+            <li class="THLevel">Class</li>
+            <li class="THLevel">Family</li>
+            <li class="THLevel">Domian</li>
+            <li class="THLevel">Genus</li>
+            <li class="THLevel">Phylum</li>
+        </ul>
+        <h2>Select all of the Carnivores</h2>
+        <fieldset>
+            <label for="checkbox-1">🦝 Raccoon</label>
+            <input type="checkbox" name="checkbox-1" id="checkbox-1">
+            <label for="checkbox-2">🐻 Bear</label>
+            <input type="checkbox" name="checkbox-2" id="checkbox-2">
+            <label for="checkbox-3">🦓 Zebra</label>
+            <input type="checkbox" name="checkbox-3" id="checkbox-3">
+            <label for="checkbox-4">🦖 T-rex</label>
+            <input type="checkbox" name="checkbox-4" id="checkbox-4">
+            <label for="checkbox-5">🦒 Giraffe</label>
+            <input type="checkbox" name="checkbox-5" id="checkbox-5">
+            <label for="checkbox-6">🐯 Tiger</label>
+            <input type="checkbox" name="checkbox-6" id="checkbox-6">
+            <label for="checkbox-7">🐮 Cow</label>
+            <input type="checkbox" name="checkbox-7" id="checkbox-7">
+            <label for="checkbox-8">🐲 Dragon</label>
+            <input type="checkbox" name="checkbox-8" id="checkbox-8">
+            <label for="checkbox-9">🦅 Eagle</label>
+            <input type="checkbox" name="checkbox-9" id="checkbox-9">
+        </fieldset>
+        <div id="popup" title="Sign up for our Newsletter!">
+            <p>Marketing thinks these are fantastic and not at all super annoying. The stats say they work though so here it is to block your screen!</p>
+        </div>
+        <h2>What color is your favorite Animal?</h2>
+        <div id="picker">
+            <div id="red"></div>
+            <div id="green"></div>
+            <div id="blue"></div>
+            <div id="swatch" class="ui-widget-content ui-corner-all"></div>
+        </div>
+        <h2>Want to tell us about your favorite animal?</h2>
+        <p>Leave us a message! (Drag the box to make it bigger)</p>
+        <div id="textbox">
+            <textarea id="resizable" rows="15" cols="50"></textarea>
+        </div>
+        <h2>Thank you for checking us out!</h2>
+        <footer>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem voluptatem illo qui doloribus natus voluptas non, quas, dolore cumque eos, atque maxime optio impedit. Magnam libero totam ullam consectetur reprehenderit.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda provident perferendis hic facere unde tempora doloribus neque voluptates alias mollitia cum, dolor illum harum consequuntur, est perspiciatis, veniam eius? Labore, vero. Cum praesentium voluptatibus quibusdam suscipit cupiditate, deleniti perferendis assumenda? Illo voluptas fugit iure distinctio cumque recusandae laborum eveniet enim, fuga rem dolorum, delectus repudiandae?</p>
+        </footer>
     </div>
-    <script src="hw7.js"></script>
 </body>
 </html>
